@@ -16,7 +16,7 @@ const Hero = () => {
       >
         <h1>
           <BlurText
-            text="Quality You Can Trust, Value You'll Love."
+            text="Quality You Can Trust, Value You will Love."
             delay={150}
             animateBy="words"
             direction="top"
