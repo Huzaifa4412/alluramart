@@ -16,7 +16,7 @@ const Hero = () => {
       >
         <h1>
           <BlurText
-            text="Find your choice that suits your vibes"
+            text="Welcome to Allura Mart, your one-stop online shopping destination for all your needs. Explore our wide range of products and experience the convenience of shopping from the comfort of your own home."
             delay={150}
             animateBy="words"
             direction="top"

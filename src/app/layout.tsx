@@ -10,10 +10,10 @@ import CustomCursor from "@/components/CustomCursor/Cursor";
 import Footer2 from "@/components/Footer/Footer2";
 
 export const metadata: Metadata = {
-    title: "Apni Vibe Store",
+    title: "Allura Mart - Elevate Your Style with Every Click",
     description:
-        "Find your choice that suits your vibes. Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
-    keywords: ["e-commerce", "shop", "nextjs", "typescript"],
+        "Find your choice that suits your vibes. Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
+    keywords: ["e-commerce", "shop", "cloths", "accessories", "allura", "nextjs", "typescript"],
 };
 
 const urbanist = Urbanist({

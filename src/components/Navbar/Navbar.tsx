@@ -113,7 +113,7 @@ const Navbar = () => {
                 <Link href={"/"} className="order-1 sm:order-2">
                     {/* <div className={`${Styles.logo} text-[32px] font-ld `}>SHOP.CO</div> */}
                     <Image
-                        src={"/logo-main.svg"}
+                        src={"/logo.jpg"}
                         alt="Logo"
                         className="w-auto h-[70px] object-cover rounded-full"
                         width={100}
@@ -122,9 +122,8 @@ const Navbar = () => {
                 </Link>
                 <div className={`${Styles.nav_items} order-1 sm:order-2`}>
                     <ul
-                        className={`hidden ${Styles.nav_list} duration-500 relative ${
-                            isMenuOpen ? `${Styles.active}` : ""
-                        } md:flex text-[16px]  gap-[22px] items-center font-medium`}
+                        className={`hidden ${Styles.nav_list} duration-500 relative ${isMenuOpen ? `${Styles.active}` : ""
+                            } md:flex text-[16px]  gap-[22px] items-center font-medium`}
                     >
                         <li
                             className="flex items-center gap-1 relative"
@@ -287,7 +286,7 @@ const Navbar = () => {
                             <>
                                 <div className="searchData bg-white w-full  px-6 py-3 h-max z-[99] shadow-lg absolute top-[90%] rounded-md left-0 overflow-y-auto">
                                     {searchData.length > 0 &&
-                                    searchQuery !== "" ? (
+                                        searchQuery !== "" ? (
                                         searchData
                                             .slice(0, 6)
                                             .map((product: Product) => (
