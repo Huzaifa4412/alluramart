@@ -16,11 +16,11 @@ const Hero = () => {
       >
         <h1>
           <BlurText
-            text="Welcome to Allura Mart, your one-stop online shopping destination for all your needs. Explore our wide range of products and experience the convenience of shopping from the comfort of your own home."
+            text="Quality You Can Trust, Value You'll Love."
             delay={150}
             animateBy="words"
             direction="top"
-            className="xl:text-[64px] text-left uppercase lg:w-full lg:text-[48px] lg:leading-[50px]  text-[40px]  leading-[42px] font-extrabold xl:leading-[64px]"
+            className="xl:text-[50px] text-left uppercase lg:w-full lg:text-[48px] lg:leading-[40px]  text-[30px]  leading-[28px] font-extrabold xl:leading-[50px]"
           />
 
         </h1>
