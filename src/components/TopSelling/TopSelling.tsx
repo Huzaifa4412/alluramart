@@ -12,12 +12,15 @@ const getProduct = async () => {
   try {
     const query = `*[_type == "product" && top_selling]  | order(_createdAt desc) {name,"image":image.asset -> url,rating, price, discountPercent,_id, "discountedPrice": select(sale == true && defined(discountPercent) => price - ((price * discountPercent) / 100), price) }[0..7]`;
 
-    const product = client.fetch(query);
+    const product = client.fetch(query, {}, { cache: "no-store" });
     return product;
   } catch (error) {
     console.log(error);
   }
 };
+
+export const revalidate = 0;
+
 
 export default async function TopSelling() {
 

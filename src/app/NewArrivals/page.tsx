@@ -12,12 +12,14 @@ const getProduct = async () => {
       price
     ), }`;
 
-        const product = client.fetch(Query);
+        const product = client.fetch(Query, {}, { cache: "no-store" });
         return product;
     } catch (error) {
         console.log(error);
     }
 };
+
+export const revalidate = 0;
 
 const Page = async () => {
     const data = (await getProduct()) as Product[] | undefined;

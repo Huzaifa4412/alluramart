@@ -15,12 +15,15 @@ const getProduct = async () => {
       price
     ), }[0..7]`;
 
-    const product = client.fetch(Query);
+    const product = client.fetch(Query, {}, { cache: "no-store" });
     return product;
   } catch (error) {
     console.log(error);
   }
 };
+
+export const revalidate = 0;
+
 export default async function NewArrivals() {
   const data = await getProduct();
 
