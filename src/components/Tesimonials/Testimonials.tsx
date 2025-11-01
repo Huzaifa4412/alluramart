@@ -17,27 +17,27 @@ import { Pagination, Navigation } from "swiper/modules";
 const testimonials = [
   {
     name: "Ayesha Khan",
-    desc: `"ApniVibe ki jewellery collection bohat classy hai. Har piece lightweight aur elegant lagta hai. Mujhe specially unka bracelet bohat pasand aya. Online photos aur real product bilkul same nikla.”`,
+    desc: `"Allura Mart ki jewellery collection bohat classy hai. Har piece lightweight aur elegant lagta hai. Mujhe specially unka bracelet bohat pasand aya. Online photos aur real product bilkul same nikla.”`,
     blur: false,
   },
   {
     name: "Hamza Raizi",
-    desc: `"Main ne ApniVibe se smart watch order ki thi aur honestly, value for money hai. Design stylish, battery timing zabardast aur delivery bhi time pe thi. Recommend karunga sabko.”`,
+    desc: `"Main ne Allura Mart se smart watch order ki thi aur honestly, value for money hai. Design stylish, battery timing zabardast aur delivery bhi time pe thi. Recommend karunga sabko.”`,
     blur: false,
   },
   {
     name: "Sana F.",
-    desc: `"Perfume collection ApniVibe ka bohat hi unique hai. Fragrances long-lasting hain aur packaging bhi bohat premium thi. Price bhi reasonable tha as compared to malls.”`,
+    desc: `"Perfume collection Allura Mart ka bohat hi unique hai. Fragrances long-lasting hain aur packaging bhi bohat premium thi. Price bhi reasonable tha as compared to malls.”`,
     blur: false,
   },
   {
     name: "Bilal Hashmi",
-    desc: `"Mujhe bags ka collection bohat acha laga ApniVibe pe. Trendy aur durable dono cheezain ek saath milti hain. Mere dost bhi puch rahe the bag kahan se liya hai 😅.”`,
+    desc: `"Mujhe bags ka collection bohat acha laga Allura Mart pe. Trendy aur durable dono cheezain ek saath milti hain. Mere dost bhi puch rahe the bag kahan se liya hai 😅.”`,
     blur: true,
   },
   {
     name: "Zara Malik",
-    desc: `"ApniVibe se pehli dafa order kiya tha airbuds aur honestly expectations cross kar gayi. Sound quality clear hai, bass strong hai aur case bhi sleek design ka hai.”`,
+    desc: `"Allura Mart se pehli dafa order kiya tha airbuds aur honestly expectations cross kar gayi. Sound quality clear hai, bass strong hai aur case bhi sleek design ka hai.”`,
     blur: false,
   },
 ];
