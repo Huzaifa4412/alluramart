@@ -78,20 +78,20 @@ export default function AnimatedWaveFooter() {
                         <h3 className="mb-4 text-lg font-semibold">Contact Us</h3>
                         <address className="space-y-2 text-sm not-italic">
 
-                            <p>Instagram: apni_vibes_official</p>
-                            <a href="mailto:apnivibesonly@gmail.com">Email: apnivibesonly@gmail.com</a>
+                            <p>Instagram: alluramartofficial</p>
+                            <a href="mailto:alluramart1@gmail.com">Email: alluramart1@gmail.com</a>
                         </address>
                     </div>
                     <div>
                         <h3 className="mb-4 text-lg font-semibold">Follow Us</h3>
                         <div className="flex space-x-4">
-                            <a href="https://www.facebook.com/share/1b6ANYm7Um/" target="_blank">
+                            <a href="https://www.instagram.com/alluramartofficial/" target="_blank">
                                 <Button variant="ghost" size="icon" className="rounded-full">
                                     <Facebook className="h-4 w-4" />
                                     <span className="sr-only">Facebook</span>
                                 </Button>
                             </a>
-                            <a href="https://www.instagram.com/apni_vibes_official/" target="_blank">
+                            <a href="https://www.instagram.com/alluramartofficial/" target="_blank">
                                 <Button variant="ghost" size="icon" className="rounded-full">
                                     <Instagram className="h-4 w-4" />
                                     <span className="sr-only">Instagram</span>
@@ -102,7 +102,7 @@ export default function AnimatedWaveFooter() {
                 </div>
                 <div className="mt-12 border-t pt-8 text-center">
                     <p className="text-sm text-muted-foreground">
-                        © {new Date().getFullYear()} ApniVibe. All rights reserved.
+                        © {new Date().getFullYear()} Allura Mart. All rights reserved.
                     </p>
                 </div>
             </div>

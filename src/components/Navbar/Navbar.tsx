@@ -113,11 +113,11 @@ const Navbar = () => {
                 <Link href={"/"} className="order-1 sm:order-2">
                     {/* <div className={`${Styles.logo} text-[32px] font-ld `}>SHOP.CO</div> */}
                     <Image
-                        src={"/logo.jpg"}
+                        src={"/logo-allura.svg"}
                         alt="Logo"
-                        className="w-auto h-[70px] object-cover rounded-full"
-                        width={100}
-                        height={100}
+                        className="w-[150px] h-[150px] object-cover rounded-full"
+                        width={150}
+                        height={150}
                     />
                 </Link>
                 <div className={`${Styles.nav_items} order-1 sm:order-2`}>
