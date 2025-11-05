@@ -115,7 +115,7 @@ const Navbar = () => {
                     <Image
                         src={"/logo-alluramart.svg"}
                         alt="Logo"
-                        className="w-auto h-[85px] object-cover rounded-full"
+                        className="w-auto h-[95px] object-cover rounded-full"
                         width={150}
                         height={150}
                     />
