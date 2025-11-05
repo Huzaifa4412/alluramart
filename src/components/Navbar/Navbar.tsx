@@ -113,9 +113,9 @@ const Navbar = () => {
                 <Link href={"/"} className="order-1 sm:order-2">
                     {/* <div className={`${Styles.logo} text-[32px] font-ld `}>SHOP.CO</div> */}
                     <Image
-                        src={"/logo-allura.svg"}
+                        src={"/logo-alluramart.svg"}
                         alt="Logo"
-                        className="w-[150px] h-[150px] object-cover rounded-full"
+                        className="w-auto h-[85px] object-cover rounded-full"
                         width={150}
                         height={150}
                     />
